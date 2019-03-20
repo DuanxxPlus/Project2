@@ -24,6 +24,7 @@
     }
     else{
         x=3840/(650/(w/3));
+        $('.banner1 h2,.banner1 h3,.banner1 p,.banner1_buyNow').css('margin-left','25px');
         $('.banner1').css({'height':w/3+'px','background-size':x+'px '+(w/3)+'px'});
         $('.banner1 h3').css('margin-top','3%');
         x=(x-w)/2;
@@ -64,6 +65,7 @@ $(window).resize(function () {
     }
     else{
         x=3840/(650/(w/3));
+        $('.banner1 h2,.banner1 h3,.banner1 p,.banner1_buyNow').css('margin-left','25px');
         $('.banner1').css({'height':w/3+'px','background-size':x+'px '+(w/3)+'px'});
         $('.banner1 h3').css('margin-top','3%');
         x=(x-w)/2;
