@@ -1,0 +1,208 @@
+@media (min-width: 737px) and (max-width: 1200px) {
+    main{
+        width: 100%;
+        height: 56.55vw;
+        background: url("../../images/6Tbg.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    header{
+        width: 100%;
+        height: 59px;
+        background: rgba(255,255,255,0);
+    }
+    .header{
+        max-width: 1202px;
+        height: 100%;
+        margin: auto;
+    }
+    .header>h2{
+        float: left;
+        font-size: 16px;
+        line-height: 60px;
+        color: white;
+        font-weight: 600;
+        margin-left: 16px;
+    }
+    .header>div{
+        width: 250px;
+        height: 100%;
+        margin: auto;
+    }
+    .header ul{
+        width: 100%;
+        height: 100%;
+    }
+    .header ul>li{
+        height: 100%;
+        float: left;
+        margin-right: 20px;
+    }
+    .header ul a{
+        font-size: 14px;
+        line-height: 60px;
+        font-weight: 500;
+        color: #b1b1b1;
+        transition: all 300ms;
+    }
+    .header ul a:hover{
+        color: white;
+    }
+    .header>a{
+        float: right;
+        width: 90px;
+        height: 40px;
+        margin: 9px 12px 0 0;
+        background: #ea0028;
+        border-radius: 4px;
+    }
+    .header>a:hover>#header_link_bg{
+        width: 100%;
+    }
+    .header>a>span{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+    }
+    #header_link_bg{
+        width: 0;
+        background: rgba(0,0,0,0.2);
+        transition: all 350ms;
+    }
+    main>div{
+        width: 100%;
+    }
+    main>div>*{
+        color: white;
+        margin-left: 25px;
+    }
+    main>div>h6{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    main>div>h5{
+        font-size: 60px;
+        line-height: 84px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    main>div>p{
+        margin-top: 25px;
+    }
+    main>div span{
+        color: white;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .main_price{
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .inf{
+        width: 100%;
+        height: 400px;
+        background: black;
+        overflow: hidden;
+        margin-top: -3px;
+        padding-top: 3px;
+    }
+    .inf>ul{
+        max-width: 1200px;
+        height: 80px;
+        margin: 120px auto 0
+    }
+    .inf>ul>li{
+        width: 33.333333%;
+        height: 100%;
+        float: left;
+        border-right: 1px solid white;
+        box-sizing: border-box;
+    }
+    .inf>ul *{
+        text-align: center;
+    }
+    .inf>ul h6{
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 15px;
+        color: white;
+    }
+    .inf>ul p{
+        font-size: 14px;
+        line-height: 28px;
+        margin-top: 10px;
+        color: #666666;
+    }
+    .sp{
+        width: 100%;
+        height: 32vw;
+    }
+    .sp1,.sp2{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        transition: all 350ms;
+    }
+    .sp1{
+        width: 100%;
+        background-image: url("../../images/sp1.png");
+        background-size: cover;
+        background-position: 50%;
+        left: 0;
+    }
+    .sp2{
+        width: 0;
+        background-image: url("../../images/sp2.png");
+        background-size: cover;
+        background-position: 50%;
+        right: 0;
+    }
+    .sp_button{
+        max-width: 1206px;
+        height: 100%;
+        margin: auto;
+    }
+    .sp_button>p{
+        position: absolute;
+        left: 20px;
+        bottom: 35px;
+        overflow: hidden;
+    }
+    .sp_span{
+        float: left;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: bold;
+        color: #929292;
+        cursor: pointer;
+    }
+    .sp>a{
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background: white;
+    }
+    .sp>a:hover{
+        background: #e0dada;
+        width: 66px;
+        height: 66px;
+    }
+    .sp>a:hover>img{
+        margin: 23px 0 0 27px;
+    }
+    .sp>a>img{
+        display: block;
+        margin: 25px 0 0 29px;
+    }
+}

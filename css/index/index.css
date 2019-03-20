@@ -1,0 +1,29 @@
+h1{
+    width: 30px;
+    height: 30px;
+}
+.banner1{
+    width: 100%;
+    background: url("../../images/banner1.png") no-repeat;
+    overflow: hidden;
+}
+.banner1 h2,.banner1 h3,.banner1 p,.banner1_buyNow{
+    color: white;
+}
+#banner2{
+    width: 100%;
+    background: url("../../images/banner2.png") no-repeat;
+    overflow: hidden;
+}
+.banner2 h2,.banner2 h3,.banner2 p,.banner2_buyNow{
+    color: white;
+}
+main{
+    width: 100%;
+}
+article{
+    background: url("../../images/shot.png") no-repeat;
+    width: 100%;
+    margin-top: 12px;
+    overflow: hidden;
+}

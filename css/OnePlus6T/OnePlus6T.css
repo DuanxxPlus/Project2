@@ -1,0 +1,22 @@
+main>div>h6,main>div>h5,main>div>p,.inf>ul *,.sp_button>p,.sp_span{
+    transition: all 500ms;
+}
+main{
+    overflow: hidden;
+}
+header{
+    border-bottom: 1px solid #666666;
+}
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.headerFixed{
+    position: fixed;
+    background: rgba(0,0,0,0.65);
+}
+.sp_checked{
+    color: white;
+}
